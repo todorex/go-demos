@@ -6,7 +6,7 @@
 1. [Go语言开发微信公众号](https://www.imooc.com/learn/783)
 
 ## 开发总览
-![微信公众号请求流程]()
+![微信公众号请求流程](https://github.com/todorex/go-demos/raw/master/wx-server/image/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%AF%B7%E6%B1%82%E6%B5%81%E7%A8%8B.png)
 
 ## 前置条件
 
