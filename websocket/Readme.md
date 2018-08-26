@@ -18,5 +18,3 @@
 2. 打开测试页面
     在go-demos/websocket/web目录下的client.html
     
-关于微信公众号的配置请参考：
-[微信公众平台技术文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1445241432)Å
