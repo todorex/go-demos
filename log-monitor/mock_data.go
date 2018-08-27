@@ -15,7 +15,7 @@ func main() {
 	172.0.0.12	-	-	[22/Dec/2017:03:31:35 +0000]	https	"GET /status.html HTTP/1.0"	200	3	"-"	"KeepAliveClient"	"-"	-	0.000
 	*/
 
-	file, err := os.OpenFile("/Users/rex/GoglandProjects/src/go-demos/log-process/access.log", os.O_WRONLY|os.O_APPEND, os.ModePerm)
+	file, err := os.OpenFile("/Users/rex/GoglandProjects/src/go-demos/log-monitor/access.log", os.O_WRONLY|os.O_APPEND, os.ModePerm)
 	if err != nil {
 		panic(fmt.Sprintf("Open file err: %s", err.Error()))
 	}
