@@ -294,7 +294,7 @@ func main() {
 
 	var path, influxDsn string
 
-	flag.StringVar(&path, "path", "/Users/rex/GoglandProjects/src/go-demos/log-process/access.log", "log file path")
+	flag.StringVar(&path, "path", "/Users/rex/GoglandProjects/src/go-demos/log-monitor/access.log", "log file path")
 
 	flag.StringVar(&influxDsn, "influxDsn", "http://127.0.0.1:8086@root@root@log_process@s", "influx data source")
 	reader := &ReadFromFile{
